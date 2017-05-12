@@ -2,6 +2,8 @@
 {
 	margin: 0 30px;
 	background: #ddd;
+	font-family: "Helvetica";
+	border: 10px solid #555;
 }
 
 #header
@@ -49,8 +51,8 @@
 	clear: left;
 	padding: 20px;
 	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
 	-webkit-box-shadow: 0px 0px 1px #333;
 	box-shadow: 0px 0px 1px #333;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
@@ -75,8 +77,8 @@
 	width: 40%;
 	padding: 20px;
 	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
 	-webkit-box-shadow: 0px 0px 1px #333;
 	box-shadow: 0px 0px 1px #333;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
@@ -91,8 +93,9 @@
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #555;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+	color:lightGrey;
 }
